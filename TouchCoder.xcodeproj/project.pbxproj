@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC70B3E91E196E2E00C1305F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70B3E81E196E2E00C1305F /* AppDelegate.swift */; };
+		CC70B3EB1E196E2E00C1305F /* TouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70B3EA1E196E2E00C1305F /* TouchViewController.swift */; };
+		CC70B3EE1E196E2E00C1305F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC70B3EC1E196E2E00C1305F /* Main.storyboard */; };
+		CC70B3F01E196E2E00C1305F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC70B3EF1E196E2E00C1305F /* Assets.xcassets */; };
+		CC70B3F31E196E2E00C1305F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC70B3F11E196E2E00C1305F /* LaunchScreen.storyboard */; };
+		CC70B3FB1E196E9400C1305F /* TouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC70B3FA1E196E9400C1305F /* TouchView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC70B3E51E196E2E00C1305F /* TouchCoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchCoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC70B3E81E196E2E00C1305F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC70B3EA1E196E2E00C1305F /* TouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchViewController.swift; sourceTree = "<group>"; };
+		CC70B3ED1E196E2E00C1305F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC70B3EF1E196E2E00C1305F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC70B3F21E196E2E00C1305F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC70B3F41E196E2E00C1305F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC70B3FA1E196E9400C1305F /* TouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC70B3E21E196E2E00C1305F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC70B3DC1E196E2E00C1305F = {
+			isa = PBXGroup;
+			children = (
+				CC70B3E71E196E2E00C1305F /* TouchCoder */,
+				CC70B3E61E196E2E00C1305F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC70B3E61E196E2E00C1305F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC70B3E51E196E2E00C1305F /* TouchCoder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC70B3E71E196E2E00C1305F /* TouchCoder */ = {
+			isa = PBXGroup;
+			children = (
+				CC70B3E81E196E2E00C1305F /* AppDelegate.swift */,
+				CC70B3EF1E196E2E00C1305F /* Assets.xcassets */,
+				CC70B3F41E196E2E00C1305F /* Info.plist */,
+				CC70B3F11E196E2E00C1305F /* LaunchScreen.storyboard */,
+				CC70B3EC1E196E2E00C1305F /* Main.storyboard */,
+				CC70B3FA1E196E9400C1305F /* TouchView.swift */,
+				CC70B3EA1E196E2E00C1305F /* TouchViewController.swift */,
+			);
+			path = TouchCoder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC70B3E41E196E2E00C1305F /* TouchCoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC70B3F71E196E2E00C1305F /* Build configuration list for PBXNativeTarget "TouchCoder" */;
+			buildPhases = (
+				CC70B3E11E196E2E00C1305F /* Sources */,
+				CC70B3E21E196E2E00C1305F /* Frameworks */,
+				CC70B3E31E196E2E00C1305F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchCoder;
+			productName = TouchCoder;
+			productReference = CC70B3E51E196E2E00C1305F /* TouchCoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC70B3DD1E196E2E00C1305F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Electricwoods LLC";
+				TargetAttributes = {
+					CC70B3E41E196E2E00C1305F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2P97EM4L4N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CC70B3E01E196E2E00C1305F /* Build configuration list for PBXProject "TouchCoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC70B3DC1E196E2E00C1305F;
+			productRefGroup = CC70B3E61E196E2E00C1305F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC70B3E41E196E2E00C1305F /* TouchCoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC70B3E31E196E2E00C1305F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC70B3F31E196E2E00C1305F /* LaunchScreen.storyboard in Resources */,
+				CC70B3F01E196E2E00C1305F /* Assets.xcassets in Resources */,
+				CC70B3EE1E196E2E00C1305F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC70B3E11E196E2E00C1305F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC70B3EB1E196E2E00C1305F /* TouchViewController.swift in Sources */,
+				CC70B3FB1E196E9400C1305F /* TouchView.swift in Sources */,
+				CC70B3E91E196E2E00C1305F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC70B3EC1E196E2E00C1305F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC70B3ED1E196E2E00C1305F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC70B3F11E196E2E00C1305F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC70B3F21E196E2E00C1305F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC70B3F51E196E2E00C1305F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC70B3F61E196E2E00C1305F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC70B3F81E196E2E00C1305F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2P97EM4L4N;
+				INFOPLIST_FILE = TouchCoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricwoods.TouchCoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CC70B3F91E196E2E00C1305F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2P97EM4L4N;
+				INFOPLIST_FILE = TouchCoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.electricwoods.TouchCoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC70B3E01E196E2E00C1305F /* Build configuration list for PBXProject "TouchCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC70B3F51E196E2E00C1305F /* Debug */,
+				CC70B3F61E196E2E00C1305F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC70B3F71E196E2E00C1305F /* Build configuration list for PBXNativeTarget "TouchCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC70B3F81E196E2E00C1305F /* Debug */,
+				CC70B3F91E196E2E00C1305F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC70B3DD1E196E2E00C1305F /* Project object */;
+}
