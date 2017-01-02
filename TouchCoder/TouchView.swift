@@ -31,7 +31,7 @@ class TouchPoint {
 	
 	init(touch: UITouch, view: UIView) {
 		self.touchType = touch.type.rawValue
-		self.location = touch.preciseLocation(in: view)
+		self.location = touch.location(in: view)
 		self.preciseLocation = touch.preciseLocation(in: view)
 		self.majorRadius = touch.majorRadius
 		self.majorRadiusTolerance = touch.majorRadiusTolerance
