@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="w3U-LS-iaL">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Touch Coder-->
+        <scene sceneID="bMu-YW-KZA">
+            <objects>
+                <viewController id="w3U-LS-iaL" customClass="TouchViewController" customModule="TouchCoder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mhm-vf-AmM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y0r-qz-XYV" customClass="TouchView" customModule="TouchCoder" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OC0-yU-Xuy" firstAttribute="bottom" secondItem="Y0r-qz-XYV" secondAttribute="bottom" id="Bao-3D-aFK"/>
+                            <constraint firstItem="Y0r-qz-XYV" firstAttribute="trailing" secondItem="OC0-yU-Xuy" secondAttribute="trailing" id="IWm-2A-G2L"/>
+                            <constraint firstItem="Y0r-qz-XYV" firstAttribute="leading" secondItem="OC0-yU-Xuy" secondAttribute="leading" id="Vy1-x3-HX0"/>
+                            <constraint firstItem="Y0r-qz-XYV" firstAttribute="top" secondItem="OC0-yU-Xuy" secondAttribute="top" id="k4n-Wi-OOf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OC0-yU-Xuy"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Touch Coder" id="92R-gp-HaQ">
+                        <barButtonItem key="leftBarButtonItem" systemItem="trash" id="Bos-ax-4Hh">
+                            <connections>
+                                <action selector="erase:" destination="w3U-LS-iaL" id="alt-oz-Jma"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="x0U-ir-J2P">
+                            <connections>
+                                <action selector="action:" destination="w3U-LS-iaL" id="fbI-Gt-rVc"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="touchView" destination="Y0r-qz-XYV" id="wrQ-Py-xZ9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hhE-aP-G5n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-106.875" y="135.21126760563379"/>
+        </scene>
+    </scenes>
+</document>
