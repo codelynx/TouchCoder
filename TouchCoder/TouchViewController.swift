@@ -29,7 +29,7 @@ class TouchViewController: UIViewController {
 		let codeString = self.touchView.codeString()
 		let activityItems = [codeString]
 		let activityController = UIActivityViewController(activityItems: activityItems, applicationActivities: nil)
-		activityController.popoverPresentationController?.sourceView = self.view
+		activityController.popoverPresentationController?.barButtonItem = sender
 		self.present(activityController, animated: true, completion: nil)
 		print(codeString)
 	}

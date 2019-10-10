@@ -22,7 +22,7 @@ class TouchPoint {
 	var majorRadius: CGFloat
 	var majorRadiusTolerance: CGFloat
 	var timestamp: TimeInterval
-	var phase: UITouchPhase
+	var phase: UITouch.Phase
 	var force: CGFloat
 	var maximumPossibleForce: CGFloat
 	var altitudeAngle: CGFloat
